@@ -10,4 +10,4 @@ app.use(express.json());
 app.use(cors({origin:true}));
 
 app.get('/',(req,res)=>{res.send('Hello World')});
-app.post('/createCheckoutSession',createCheckoutSession);
+// app.post('/createCheckoutSession',createCheckoutSession);
